@@ -1,0 +1,48 @@
+@import url(../blocks/reset/reset.css);
+@import url(../vendor/normilaze.css);
+@import url(../blocks/root/root.css);
+@import url(../blocks/global/global.css);
+
+/* header */
+
+@import url(../blocks/header/header.css);
+
+/* main */
+
+@import url(../blocks/main/main.css);
+
+/* services */
+
+@import url(../blocks/services/services.css);
+
+/* advantages */
+
+@import url(../blocks/advantages/advantages.css);
+
+/* practice */
+
+@import url(../blocks/practice/practice.css);
+
+/* whoweare */
+
+@import url(../blocks/whoweare/whoweare.css);
+
+/* clients */
+
+@import url(../blocks/clients/clients.css);
+
+/* subscribe */
+
+@import url(../blocks/subscribe/subscribe.css);
+
+/* getintouch */
+
+@import url(../blocks/getintouch/getintouch.css);
+
+/* contact */
+
+@import url(../blocks/contact/contact.css);
+
+/* footer */
+
+@import url(../blocks/footer/footer.css);

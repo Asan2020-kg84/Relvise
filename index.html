@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./pages/index.css">
+  <link rel="stylesheet" href="./style.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Relvise</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container _container">
+        
+        <a href="" class="header__logo">
+          Relvise
+        </a>
+
+        <div class="header__icons icons">
+          <div class="icons__item search-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_964_18630)">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M17.1901 15.4783L23.6458 21.934C23.8727 22.161 24.0001 22.4689 24 22.7899C23.9999 23.111 23.8723 23.4188 23.6452 23.6457C23.4181 23.8726 23.1102 24 22.7892 23.9999C22.4682 23.9998 22.1604 23.8722 21.9335 23.6451L15.4778 17.1894C13.5479 18.6841 11.1211 19.3875 8.69104 19.1565C6.26097 18.9255 4.01018 17.7774 2.39656 15.9458C0.782936 14.1142 -0.0723147 11.7366 0.00479537 9.29681C0.0819054 6.857 1.08558 4.5382 2.81165 2.81214C4.53771 1.08607 6.85651 0.0823937 9.29632 0.00528365C11.7361 -0.0718264 14.1137 0.783424 15.9453 2.39705C17.7769 4.01067 18.925 6.26146 19.156 8.69153C19.387 11.1216 18.6836 13.5484 17.1889 15.4783H17.1901ZM9.60045 16.7994C11.5099 16.7994 13.3412 16.0409 14.6914 14.6907C16.0416 13.3405 16.8001 11.5092 16.8001 9.59974C16.8001 7.69027 16.0416 5.859 14.6914 4.5088C13.3412 3.1586 11.5099 2.40007 9.60045 2.40007C7.69098 2.40007 5.85971 3.1586 4.50951 4.5088C3.15932 5.859 2.40078 7.69027 2.40078 9.59974C2.40078 11.5092 3.15932 13.3405 4.50951 14.6907C5.85971 16.0409 7.69098 16.7994 9.60045 16.7994Z" fill="#737373"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_964_18630">
+              <rect width="24" height="23.9997" fill="white"/>
+              </clipPath>
+              </defs>
+            </svg>            
+          </div>
+          <div class="icons__item bascet-icon">
+            <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_964_18632)">
+              <path d="M8.00039 22.4002C8.88405 22.4002 9.60039 21.6839 9.60039 20.8002C9.60039 19.9165 8.88405 19.2002 8.00039 19.2002C7.11674 19.2002 6.40039 19.9165 6.40039 20.8002C6.40039 21.6839 7.11674 22.4002 8.00039 22.4002Z" fill="#737373"/>
+              <path d="M19.1996 22.4002C20.0833 22.4002 20.7996 21.6839 20.7996 20.8002C20.7996 19.9165 20.0833 19.2002 19.1996 19.2002C18.316 19.2002 17.5996 19.9165 17.5996 20.8002C17.5996 21.6839 18.316 22.4002 19.1996 22.4002Z" fill="#737373"/>
+              <path d="M22.4 4.00016H4.656L4 0.640163C3.9626 0.456742 3.86206 0.292245 3.71589 0.175305C3.56971 0.0583653 3.38716 -0.00361159 3.2 0.000162751H0V1.60016H2.544L5.6 16.9602C5.6374 17.1436 5.73794 17.3081 5.88411 17.425C6.03029 17.542 6.21284 17.6039 6.4 17.6002H20.8V16.0002H7.056L6.4 12.8002H20.8C20.9849 12.8047 21.1657 12.745 21.3116 12.6312C21.4574 12.5174 21.5594 12.3566 21.6 12.1762L23.2 4.97616C23.2268 4.85746 23.2262 4.73421 23.1982 4.61579C23.1702 4.49737 23.1155 4.38689 23.0384 4.29278C22.9612 4.19867 22.8636 4.12339 22.753 4.07268C22.6424 4.02198 22.5217 3.99717 22.4 4.00016ZM20.16 11.2002H6.096L4.976 5.60016H21.4L20.16 11.2002Z" fill="#737373"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_964_18632">
+              <rect width="24" height="22.4002" fill="white"/>
+              </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <div class="icons__item burger-icon">
+            <svg width="24" height="14" viewBox="0 0 24 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.571289 0H23.4284V2.28571H0.571289V0ZM6.28557 5.71429H23.4284V8H6.28557V5.71429ZM13.4284 11.4286H23.4284V13.7143H13.4284V11.4286Z" fill="#737373"/>
+            </svg>            
+          </div>
+        </div>
+
+        <nav class="header__menu menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="" class="menu__link">Home</a>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Product</a>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Pricing</a>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="page">
+      <div class="page__main-block main-block">
+        <div class="main-block__container _container">
+          <div class="main-block__body">
+            <h1 class="main-block__title">
+              Finance and Consultancy Solution
+            </h1>
+            <div class="main-block__text">
+              We know how large objects will act, but things on a small scale.
+            </div>
+            <div class="main-block__buttons">
+              <a href="#" class="main-block__button main-block__button-orange">Get Quote Now</a>
+              <a href="#" class="main-block__button main-block__button-border">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="main-block__image _ibg">
+          <img src="images/cover.jpg" alt="cover">
+        </div>
+      </div>
+      <section class="page__services services">
+         <div class="services__container _container">
+          <div class="services__body">
+            <div class="services__column">
+              <div class="services__item item-service">
+                <div class="item-service__icon">
+                  <svg width="48" height="41" viewBox="0 0 48 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M42.5886 8.52554H37.519V3.45592C37.519 2.55955 37.1629 1.6999 36.5291 1.06608C35.8953 0.432251 35.0356 0.0761719 34.1393 0.0761719H13.8608C12.9644 0.0761719 12.1048 0.432251 11.4709 1.06608C10.8371 1.6999 10.481 2.55955 10.481 3.45592V8.52554H5.41142C4.06687 8.52554 2.77739 9.05966 1.82665 10.0104C0.875916 10.9611 0.341797 12.2506 0.341797 13.5952V37.2534C0.341797 38.1497 0.697876 39.0094 1.3317 39.6432C1.96553 40.2771 2.82518 40.6331 3.72154 40.6331H44.2785C45.1749 40.6331 46.0345 40.2771 46.6683 39.6432C47.3022 39.0094 47.6582 38.1497 47.6582 37.2534V13.5952C47.6582 12.2506 47.1241 10.9611 46.1734 10.0104C45.2227 9.05966 43.9332 8.52554 42.5886 8.52554ZM13.8608 3.45592H34.1393V8.52554H13.8608V3.45592ZM44.2785 37.2534H3.72154V22.0445H17.2405V30.4939C17.2405 30.4939 27.9614 34.9709 30.7595 30.4939C32.5083 27.6958 30.7595 22.0445 30.7595 22.0445H44.2785V37.2534ZM20.6203 22.0445H27.3798V27.1141H20.6203V22.0445ZM3.72154 18.6648V13.5952C3.72154 13.147 3.89958 12.7172 4.2165 12.4002C4.53341 12.0833 4.96323 11.9053 5.41142 11.9053H42.5886C43.0368 11.9053 43.4666 12.0833 43.7836 12.4002C44.1005 12.7172 44.2785 13.147 44.2785 13.5952V18.6648H3.72154Z" fill="#0D5C63"/>
+                  </svg>
+                </div>
+                <h3 class="item-service__title">Environmental Consulting</h3>
+                <p class="item-service__text">We focus on ergonomics and meeting you where you work. </p>
+              </div>
+            </div>
+            <div class="services__column">
+              <div class="services__item item-service">
+                <div class="item-service__icon">
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M46.2 9.48885V1.89659C46.2 0.847537 45.342 0 44.28 0H3.72003C2.65804 0 1.80004 0.847537 1.80004 1.89659V9.48885C0.798037 9.54812 3.71756e-05 10.372 3.71756e-05 11.3795V19.1851C-0.00380525 20.6197 0.290253 22.0398 0.864037 23.3576C1.12204 23.9622 1.44004 24.5311 1.80004 25.0705V45.518C1.80004 46.5612 2.65804 47.4146 3.72003 47.4146H44.28C45.342 47.4146 46.2 46.5671 46.2 45.518V25.0705C46.5657 24.5298 46.879 23.9563 47.136 23.3576C47.706 22.036 48 20.6313 48 19.1851V11.3795C48 10.372 47.202 9.54812 46.2 9.48885ZM6.12003 4.26732H41.88V9.48293H6.12003V4.26732ZM27.84 43.1532H20.16V36.9834H27.84V43.1532ZM41.904 43.1532H31.68V35.0868C31.68 34.0378 30.822 33.1902 29.76 33.1902H18.24C17.178 33.1902 16.32 34.0378 16.32 35.0868V43.1532H6.12003V28.7985C6.29403 28.8814 6.47403 28.9644 6.66003 29.0355C7.99803 29.5927 9.42003 29.8712 10.884 29.8712C12.348 29.8712 13.764 29.5927 15.108 29.0355C15.936 28.6918 16.716 28.2532 17.43 27.7257C17.442 27.7198 17.454 27.7198 17.466 27.7257C18.1822 28.2554 18.9622 28.6954 19.788 29.0355C21.126 29.5927 22.548 29.8712 24.012 29.8712C25.476 29.8712 26.892 29.5927 28.236 29.0355C29.064 28.6918 29.844 28.2532 30.558 27.7257C30.57 27.7198 30.582 27.7198 30.594 27.7257C31.3102 28.2554 32.0902 28.6954 32.916 29.0355C34.254 29.5927 35.676 29.8712 37.14 29.8712C38.604 29.8712 40.02 29.5927 41.364 29.0355C41.544 28.9585 41.724 28.8814 41.904 28.7985V43.1532ZM43.68 19.1851C43.68 22.7294 40.74 25.6039 37.122 25.6039C34.674 25.6039 32.538 24.2941 31.41 22.3501C31.236 22.0537 30.924 21.87 30.576 21.87H30.54C30.198 21.87 29.88 22.0537 29.706 22.3501C29.1304 23.3417 28.2992 24.1652 27.297 24.7367C26.2948 25.3082 25.1572 25.6074 24 25.6039C21.558 25.6039 19.428 24.3 18.3 22.3619C18.12 22.0597 17.796 21.87 17.442 21.87C17.088 21.87 16.758 22.0597 16.584 22.3619C16.005 23.3498 15.1728 24.1695 14.1711 24.7387C13.1694 25.3078 12.0336 25.6062 10.878 25.6039C7.26003 25.6039 4.32003 22.7294 4.32003 19.1851V13.7799C4.32003 13.7621 4.33203 13.7502 4.35003 13.7502H43.65C43.668 13.7502 43.68 13.7621 43.68 13.7799V19.1851Z" fill="#0D5C63"/>
+                  </svg>
+                </div>
+                <h3 class="item-service__title">Environmental Consulting</h3>
+                <p class="item-service__text">We focus on ergonomics and meeting you where you work. </p>
+              </div>
+            </div>
+            <div class="services__column">
+              <div class="services__item item-service">
+                <div class="item-service__icon">
+                  <svg width="48" height="38" viewBox="0 0 48 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_993_486)">
+                    <path d="M29.1416 8.62402H41.1395V12.0693H29.1416V8.62402Z" fill="#0D5C63"/>
+                    <path d="M29.1416 17.2373H41.1395V20.6826H29.1416V17.2373Z" fill="#0D5C63"/>
+                    <path d="M29.1416 25.8506H41.1395V29.2959H29.1416V25.8506Z" fill="#0D5C63"/>
+                    <path d="M44.5674 0.0112305H3.43187C2.52299 0.0121426 1.65161 0.375424 1.00893 1.02135C0.366264 1.66727 0.00481376 2.54307 0.00390625 3.45655V34.4644C0.00481376 35.3779 0.366264 36.2537 1.00893 36.8996C1.65161 37.5455 2.52299 37.9088 3.43187 37.9097H44.5674C45.4761 37.9084 46.3472 37.5449 46.9898 36.8991C47.6324 36.2533 47.994 35.3777 47.9953 34.4644V3.45655C47.9944 2.54307 47.633 1.66727 46.9903 1.02135C46.3477 0.375424 45.4763 0.0121426 44.5674 0.0112305ZM3.43187 3.45655H22.2856V34.4644H3.43187V3.45655ZM25.7136 34.4644V3.45655H44.5674L44.5708 34.4644H25.7136Z" fill="#0D5C63"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_993_486">
+                    <rect width="48" height="37.92" fill="#0D5C63"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+                <h3 class="item-service__title">Environmental Consulting</h3>
+                <p class="item-service__text">We focus on ergonomics and meeting you where you work. </p>
+              </div>
+            </div>
+          </div>
+         </div>
+      </section>
+      <section class="page__advantages advantages">
+        <div class="advantages__container _container">
+          <div class="advantages__header header-block">
+            <h2 class="header-block__title">Designing Better Experience</h2>
+            <p class="header-block__sub-title">Problems trying to resolve the conflict between the two major realms<br> of Classical physics: Newtonian chanics</p>
+          </div>
+          <div class="advantages__body">
+            <div class="advantages__column">
+              <div class="advantages__item">
+                <div class="advantages__icon">
+                  <img src="images/advantages_icon1.svg" alt="Consumer Products">
+                </div>
+                <div class="advantages__value">972 +</div>
+                <div class="advantages__text">Consumer Products</div>
+              </div>
+            </div>
+            <div class="advantages__column">
+              <div class="advantages__item">
+                <div class="advantages__icon">
+                  <img src="images/advantages_icon2.svg" alt="Financial Services">
+                </div>
+                <div class="advantages__value">181 +</div>
+                <div class="advantages__text">Financial Services</div>
+              </div>
+            </div>
+            <div class="advantages__column">
+              <div class="advantages__item">
+                <div class="advantages__icon">
+                  <img src="images/advantages_icon3.svg" alt="Environmental">
+                </div>
+                <div class="advantages__value">98%</div>
+                <div class="advantages__text">Environmental</div>
+              </div>
+            </div>
+            <div class="advantages__column">
+              <div class="advantages__item">
+                <div class="advantages__icon">
+                  <img src="images/advantages_icon4.svg" alt="Business & Finance">
+                </div>
+                <div class="advantages__value">746 +</div>
+                <div class="advantages__text">Business & Finance</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page__practice practice">
+        <div class="practice__container _container">
+          <div class="practice__header header-block">
+            <h2 class="header-block__title">Practice Advice</h2>
+            <p class="header-block__sub-title">Problems trying to resolve the conflict between<br> the two major realms of Classical physics: Newtonian ics</p>
+          </div>
+          <div class="practice__body">
+            <div class="practice__column">
+              <article class="practice__item item-practice">
+                <div class="item-practice__content">
+                  <a href="" class="item-practice__link">
+                    <h4 class="item-practice__title">A single source of truth</h4>
+                  </a>
+                  <div class="item-practice__text">
+                    Newton thought that light was made up of particles, but then it was discovered 
+                  </div>
+                </div>
+                <a class="item-practice__img _ibg" href="">
+                  <img src="images/practice1.jpg" alt="A single source of truth">
+                </a>
+              </article>
+            </div>
+            <div class="practice__column">
+              <article class="practice__item item-practice">
+                <div class="item-practice__content">
+                  <a href="" class="item-practice__link">
+                    <h4 class="item-practice__title">Fastest way to organize</h4>
+                  </a>
+                  <div class="item-practice__text">
+                    “Quantum mechanics” is the description of the behaviour of matter
+                  </div>
+                </div>
+                <a class="item-practice__img _ibg" href="">
+                  <img src="images/practice2.jpg" alt="Fastest way to organize">
+                </a>
+              </article>
+            </div>
+            <div class="practice__column">
+              <article class="practice__item item-practice">
+                <div class="item-practice__content">
+                  <a href="" class="item-practice__link">
+                    <h4 class="item-practice__title">Fastest way to take action</h4>
+                  </a>
+                  <div class="item-practice__text">
+                    They describe a universe consisting of bodies moving
+                  </div>
+                </div>
+                <a class="item-practice__img _ibg" href="">
+                  <img src="images/practice3.jpg" alt="Fastest way to take action">
+                </a>
+              </article>
+            </div>
+            <div class="practice__column">
+              <article class="practice__item item-practice">
+                <div class="item-practice__content">
+                  <a href="" class="item-practice__link">
+                    <h4 class="item-practice__title">Work better together</h4>
+                  </a>
+                  <div class="item-practice__text">
+                    They finally obtained a consistent description of the behaviour
+                  </div>
+                </div>
+                <a class="item-practice__img _ibg" href="">
+                  <img src="images/practice4.jpg" alt="Work better together">
+                </a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page__whoweare whoweare">
+        <div class="whoweare__container _container">
+          <div class="whoweare__header header-block">
+            <h2 class="header-block__title">Who We Are</h2>
+            <p class="header-block__sub-title">
+              Problems trying to resolve the conflict between the two major realms <br> of Classical physics: Newtonian mechanics 
+            </p>
+          </div>
+          <div class="whoweare__body">
+            <div class="whoweare__video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/VfYaK8vdZao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="whoweare__content">
+              <div class="whoweare__top">
+                <h2 class="whoweare__title">Most trusted in our field</h2>
+                <p class="whoweare__text">Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.
+                </p>
+              </div>
+
+              <div class="whoweare__items">
+                <div class="whoweare__item item-whoweare">
+                  <div class="item-whoweare__icon">
+                    <img src="images/whoweare1.svg" alt="">
+                  </div>
+                  <div class="item-whoweare__body">
+                    <div class="item-whoweare__title">the quick fox jumps over the lazy dog</div>
+                    <div class="item-whoweare__text">Things on a very small scale ...</div>
+                  </div>
+                </div>
+                <div class="whoweare__item item-whoweare">
+                  <div class="item-whoweare__icon">
+                    <img src="images/whoweare2.svg" alt="">
+                  </div>
+                  <div class="item-whoweare__body">
+                    <div class="item-whoweare__title">the quick fox jumps over the lazy dog</div>
+                    <div class="item-whoweare__text">Things on a very small scale ...</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="page__clients clients">
+        <div class="clients__container _container">
+          <div class="clients__items">
+            <div class="clients__item">
+              <img src="images/client1.png" alt="clients">
+            </div>
+            <div class="clients__item">
+              <img src="images/client2.png" alt="clients">
+            </div>
+            <div class="clients__item">
+              <img src="images/client3.png" alt="clients">
+            </div>
+            <div class="clients__item">
+              <img src="images/client4.png" alt="clients">
+            </div>
+            <div class="clients__item">
+              <img src="images/client5.png" alt="clients">
+            </div>
+            <div class="clients__item">
+              <img src="images/client6.png" alt="clients">
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="page__subscribe subscribe">
+        <div class="subscribe__container _container">
+          <div class="subscribe__body">
+            <h4 class="subscribe__title">Subscribe For Latest Newsletter</h4>
+            <form action="" class="subscribe__form">
+              <input type="email" class="subscribe__input" name="email" placeholder="Your Email" required>
+              <button class="subscribe__button" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="page__getintouch getintouch">
+        <div class="getintouch__container _container">
+          <div class="getintouch__header header-block">
+            <h2 class="header-block__title">Get In Touch</h2>
+            <p class="header-block__sub-title">
+              Problems trying to resolve the conflict between <br> the two major realms of Classical physics: Newtonian mechanics 
+            </p>
+          </div>
+          <div class="getintouch__items">
+            <div class="getintouch__item item-getintouch">
+              <div class="item-getintouch__icon">
+                <img src="images/getintouch.svg" alt="getintouch">
+              </div>
+              <div class="item-getintouch__emails">
+                <a href="mailto:georgia.young@example.com" class="item-getintouch__email">georgia.young@example.com</a>
+                <a href="mailto:georgia.young@ple.com" class="item-getintouch__email">georgia.young@ple.com</a>
+              </div>
+              <div class="item-getintouch__label">Get Support</div>
+              <a href="" class="item-getintouch__button">Submit Request</a>
+            </div>
+            <div class="getintouch__item item-getintouch item-getintouch--active">
+              <div class="item-getintouch__icon">
+                <img src="images/getintouch2.svg" alt="getintouch">
+               </div>
+              <div class="item-getintouch__emails">
+                <a href="mailto:georgia.young@example.com" class="item-getintouch__email">georgia.young@example.com</a>
+                <a href="mailto:georgia.young@ple.com" class="item-getintouch__email">georgia.young@ple.com</a>
+              </div>
+              <div class="item-getintouch__label">Get Support</div>
+              <a href="" class="item-getintouch__button">Submit Request</a>
+            </div>
+            <div class="getintouch__item item-getintouch">
+              <div class="item-getintouch__icon">
+                <img src="images/getintouch3.svg" alt="getintouch">
+              </div>
+              <div class="item-getintouch__emails">
+                <a href="mailto:georgia.young@example.com" class="item-getintouch__email">georgia.young@example.com</a>
+                <a href="mailto:georgia.young@ple.com" class="item-getintouch__email">georgia.young@ple.com</a>
+              </div>
+              <div class="item-getintouch__label">Get Support</div>
+              <a href="" class="item-getintouch__button">Submit Request</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page__contact contact">
+        <div class="contact__container _container">
+          <div class="contact__body">
+            <div class="contact__content">
+              <div class="contact__title">Consulting Agency For Your Business</div>
+              <div class="contact__text">the quick fox jumps over the lazy dog</div>
+            </div>
+            <div class="contact__button">Contact Us</div>
+          </div>
+        </div>
+      </section>
+    </div>
+   
+    <div class="footer">
+      <div class="footer__top">
+        <div class="footer__main _container">
+          <div class="footer__row">
+            <div class="footer__column">
+              <div class="footer__label">Company Info</div>
+              <nav class="footer__menu menu-footer">
+                <ul class="menu-footer__list">
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">About Us</a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Carrier</a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">We are hiring</a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Blog</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="footer__column">
+              <div class="footer__label">Legal</div>
+              <nav class="footer__menu menu-footer">
+                <ul class="menu-footer__list">
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">About Us</a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Carrier</a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">We are hiring</a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Blog</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="footer__column">
+              <div class="footer__label">Features</div>
+              <nav class="footer__menu menu-footer">
+                <ul class="menu-footer__list">
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Business Marketing</a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">User Analytic</a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Live Chat</a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Unlimited Support</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="footer__column">
+              <div class="footer__label">Resources</div>
+              <nav class="footer__menu menu-footer">
+                <ul class="menu-footer__list">
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">IOS & Android</a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Watch a Demo</a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Customers</a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">API</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="footer__column">
+              <div class="footer__label"></div>
+              <div class="footer__contacts contacts-footer">
+                <a class="contacts-footer__item contacts-footer__item--phone" href="tel:4805550103">(480) 555-01-03</a>
+                <a class="contacts-footer__item contacts-footer__item--map" href="">4517 Washingtop Ave. Manchester, Kentucky 39495</a>
+                <a class="contacts-footer__item contacts-footer__item--email" href="mailto:dobra.holt@example.com">dobra.holt@example.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div class="footer__container _container">
+          <div class="footer__copy">Made With Love By Figmaland All Right Reserved</div>
+          <div class="footer__social social">
+            <a class="social__item">
+              <img src="images/socialicon1.svg" alt="facebook">
+            </a>
+            <a class="social__item">
+              <img src="images/footercosial2.svg" alt="instagram">
+            </a>
+            <a class="social__item">
+              <img src="images/footersocial3.svg" alt="twitter">
+            </a>
+            <a class="social__item">
+              <img src="images/footersocial4.svg" alt="youtube">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

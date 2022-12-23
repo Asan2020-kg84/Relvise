@@ -1,0 +1,104 @@
+.page__subscribe {
+}
+.subscribe {
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 71px;
+}
+
+.subscribe:before {
+  position: absolute;
+  bottom: 0;
+  content: "";
+  background: #252B42;
+  height: 77px;
+  width: 100%;
+}
+
+.subscribe__body {
+  position: relative;
+  z-index: 5;
+  padding: 30px 50px;
+  align-items: center;
+  background-color: #17213C;
+  border-radius: 2px;
+}
+
+@media (max-width: 810px) {
+  .subscribe__body {
+    padding: 20px 25px;
+    margin: 0px -15px;
+  }
+}
+
+@media (min-width: 810px) {
+  .subscribe__body {
+    display: flex;
+    justify-content: space-between;
+  }
+  .subscribe__title {
+    max-width: 266px;
+  }
+}
+
+@media (min-width: 1070px) {
+  .subscribe__body {
+    margin: 0px 30px;
+  }
+} 
+
+.subscribe__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 810px) {
+  .subscribe__title {
+    margin: 0px 0px 20px 0px;
+  }
+}
+
+.subscribe__form {
+  flex: 0 1 50%;
+  display: flex;
+  align-items: center;
+}
+
+.subscribe__input {
+  width: 100%;
+  flex: 1 1 auto;
+  color:#737373;
+  min-height: 58px;
+  padding: 0px 20px;
+  background: #F9F9F9;
+  border: 1px solid #E6E6E6;
+  border-radius: 5px 0px 0px 5px;
+  border-right: 0;
+}
+
+.subscribe__input:focus {
+  color: #000;
+}
+
+.subscribe__button {
+  background: #FF7B47;
+  border: 1px solid #E6E6E6;
+  border-radius: 0px 5px 5px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 58px;
+  text-align: center;
+  color: #fff;
+  padding: 0px 22px;
+  cursor: pointer;
+}
+
+@media (max-width: 810px) {
+  .subscribe__button {
+    padding: 0px 15px;
+  }
+}

@@ -1,0 +1,124 @@
+.page__getintouch {
+}
+
+.getintouch {
+  padding: 80px 0px 135px 0px;
+  background-color: #EDEDED;
+}
+
+.getintouch__header {
+  margin: 0px 0px 80px 0px;
+}
+
+@media (max-width: 992px) {
+  .getintouch__header {
+    margin: 0px 0px 50px 0px;  
+  }
+}
+
+@media (max-width: 767px) {
+  .getintouch__header {
+    margin: 0px 0px 30px 0px;  
+  }
+}
+
+
+.header-block {
+}
+
+.getintouch__items {
+  margin: 0 -15px;
+}
+
+@media (min-width: 992px) {
+  .getintouch__items {
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.getintouch__item {
+  flex: 0 1 33.333%;
+}
+
+.item-getintouch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px;
+  background-color: #fff;
+  color: #252B42;
+}
+
+.item-getintouch--active {
+  padding: 80px 15px;
+  background-color: #252B42;
+  color: #fff;
+}
+
+.item-getintouch--active .item-getintouch__button {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.item-getintouch > *:not(:last-child) {
+  margin: 0px 0px 15px 0px;
+}
+
+.item-getintouch__icon {
+}
+
+
+.item-getintouch__emails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-getintouch__email {
+  color: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 171%;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
+.item-getintouch__email:hover {
+  text-decoration: underline;;
+}
+
+.item-getintouch__label {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.1px;
+}
+
+.item-getintouch__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #FF7B47;
+  border-radius: 5px;
+  min-height: 44px;
+  padding: 5px 20px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.2px;
+  color: #FF7B47;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.item-getintouch__button:hover {
+  color: #fff;
+  background-color: #FF7B47;
+  border: 1px solid #FF7B47;
+}
+
